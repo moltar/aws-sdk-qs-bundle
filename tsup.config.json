@@ -1,6 +1,5 @@
 {
   "clean": true,
-  "sourcemap": true,
   "watch": false,
   "entry": [
     "index.ts"
