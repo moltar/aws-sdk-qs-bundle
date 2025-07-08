@@ -11,6 +11,5 @@
   "format": [
     "cjs"
   ],
-  "tsconfig": "tsconfig.json",
-  "shims": true
+  "tsconfig": "tsconfig.json"
 }
