@@ -1,0 +1,19 @@
+{
+  "clean": true,
+  "sourcemap": true,
+  "watch": false,
+  "silent": true,
+  "entry": [
+    "index.ts"
+  ],
+  "dts": {
+    "resolve": true
+  },
+  "outDir": "dist",
+  "format": [
+    "cjs",
+    "esm"
+  ],
+  "tsconfig": "tsconfig.json",
+  "shims": true
+}

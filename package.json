@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsup --config=tsup.config.json"
   },
   "keywords": [],
   "author": "Roman Filippov",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "8.5.0",
+    "typescript": "5.8.3"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-quicksight": "3.840.0",
+    "@aws-sdk/client-sts": "3.840.0",
+    "@aws-sdk/util-arn-parser": "3.804.0"
+  }
 }
