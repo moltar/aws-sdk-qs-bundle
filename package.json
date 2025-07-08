@@ -9,6 +9,7 @@
   "keywords": [],
   "author": "Roman Filippov",
   "license": "ISC",
+  "packageManager": "pnpm@9.15.4",
   "dependencies": {
     "tsup": "8.5.0",
     "typescript": "5.8.3"
