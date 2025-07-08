@@ -2,7 +2,6 @@
   "clean": true,
   "sourcemap": true,
   "watch": false,
-  "silent": true,
   "entry": [
     "index.ts"
   ],
