@@ -26,7 +26,11 @@
     "stripInternal": true,
     "target": "ES2022",
     "incremental": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@smithy/core/protocols": ["./node_modules/@smithy/core/dist-types/submodules/protocols/index.d.ts"],
+      "@smithy/core/schema": ["./node_modules/@smithy/core/dist-types/submodules/schema/index.d.ts"]
+    }
   },
   "include": [
     "index.ts"
